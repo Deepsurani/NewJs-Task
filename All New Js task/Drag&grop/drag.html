@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box
+    {
+        border: 1px solid #6b6060;
+        padding: 20px;
+        margin: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <div id="box1" class="box" ondragover="DragOverEvent(event)" ondrop="DropEvent(event)">
+        <p id="pTag" draggable="true" ondragstart="DragStartEvent(event)">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptas dicta, eius deserunt saepe nobis atque sapiente, illo velit soluta omnis distinctio, fugiat
+            aspernatur tempore? Consequatur sunt non ea recusandae animi.
+        </p>
+    </div>
+    <div class="box" id="box2" ondragover="DragOverEvent(event)" ondrop="DropEvent(event)">
+
+    </div>
+    <script src="drag.js"></script>
+</body>
+
+</html>
